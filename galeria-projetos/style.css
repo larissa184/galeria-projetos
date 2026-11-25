@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+}
+
+.card {
+  cursor: pointer;
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.card-content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+
+.card-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
